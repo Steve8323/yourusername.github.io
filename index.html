@@ -1,1 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Green Site</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
+      body {
+        font-family: system-ui, sans-serif;
+        background-color: #052e16; /* dark green */
+        color: #ecfdf5;            /* very light green */
+      }
+
+      header {
+        padding: 1.5rem 2rem;
+        background-color: #14532d; /* medium green */
+        border-bottom: 1px solid #166534;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav a {
+        color: #bbf7d0;
+        text-decoration: none;
+        margin-left: 1rem;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem 3rem;
+      }
+
+      section {
+        background-color: #064e3b; /* card green */
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 1px solid #16a34a;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      }
+
+      h2 {
+        margin-bottom: 0.75rem;
+        color: #bbf7d0;
+      }
+
+      p {
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem 0 2rem;
+        color: #6ee7b7;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Steven’s Green Website</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>This is a simple all‑green website built with plain HTML and CSS.</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>List your cool photonics or coding projects here.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Put your email or other contact info here.</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Steven
+    </footer>
+  </body>
+</html>
